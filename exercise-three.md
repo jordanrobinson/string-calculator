@@ -4,7 +4,7 @@ Great! We got here! We can be comfortable with our implementation as it's all co
 
 The new functionality revolves around our new output writer, and adding additional logging to it, as well as adding new capabilities to our Add method.
 
-The new requirement in simple terms are:
+The new requirement is:
 
  - The Output Writer needs to output the sums done in order of operations, taking into account any brackets in the input
 
@@ -28,5 +28,9 @@ return value: `"19"`
 input: `"3"`
 output writer: `""` (empty string, as no sums are done)
 return value: `"3"`
+
+The most important part of this exercise is that you don't forget to follow TDD!
+
+RED, GREEN, REFACTOR!
 
 If you're stuck at any point or want a few hints or pointers, just ask one of us and we'll be more than happy to help.

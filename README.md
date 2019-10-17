@@ -4,8 +4,8 @@ The idea of this exercise is to accompany some slides on an introduction to usin
 
 The three exercises are as follows:
 
-[Exercise One](exercise-one.md)
-[Exercise Two](exercise-two.md)
-[Exercise Three](exercise-three.md)
+- [Exercise One](exercise-one.md)
+- [Exercise Two](exercise-two.md)
+- [Exercise Three](exercise-three.md)
 
 There are starters of a few languages already but pull requests with new ones are definitely welcome!
