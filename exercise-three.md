@@ -25,6 +25,10 @@ input: `"5,6,8"`
 output writer: `"5 + 6, 11 + 8"`
 return value: `"19"`
 
+input: `"7,23,5,9"`
+output writer: `"7 + 23, 30 + 5, 35 + 9"`
+return value: `"44"`
+
 input: `"3"`
 output writer: `""` (empty string, as no sums are done)
 return value: `"3"`
