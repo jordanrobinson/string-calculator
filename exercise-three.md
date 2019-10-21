@@ -2,23 +2,25 @@
 
 Great! We got here! We can be comfortable with our implementation as it's all covered with tests, and as such now we want to add some new functionality.
 
-The new functionality revolves around our new output writer, and adding additional logging to it, as well as adding new capabilities to our Add method.
+The new functionality revolves around our new output writer, and adding additional logging to it.
 
 The new requirement is:
 
- - The Output Writer needs to output the sums done in order of operations, taking into account any brackets in the input
+ - The Output Writer needs to output the sums done in order of operations
 
 Naturally, the add method will still have the same output, as we're only adding numbers together at this point. So your previous tests should all still work throughout. If they don't though, you can back out your changes and try and figure out what's gone wrong.
 
-When we have the input `"2,3,(4,5)"`
-Then the output writer should log `"4 + 5, 2 + 3, 5 + 9"`
+When we have the input `"2,3,4,5"`
+Then the output writer should log `"2 + 3, 5 + 4, 9 + 5"`
 
-This illustrates the steps that the string calculator should be taking under the hood to process brackets.
+Note the accumulator, how `2 + 3` then becomes `5` and is used for the next sum.
+
+This illustrates the steps that the string calculator should be taking under the hood.
 
 Some more examples:
 
-input: `"34,12,(100,40),30"`
-output writer: `"100 + 40, 34 + 12, 46 + 140, 186 + 30"`
+input: `"34,12,100,40,30"`
+output writer: `"34 + 12, 46 + 100, 146 + 40, 186 + 30"`
 return value: `"216"`
 
 input: `"5,6,8"`
