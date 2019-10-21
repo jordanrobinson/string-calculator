@@ -1,4 +1,4 @@
-# Exercise Two: Let's test the new functionality
+# Exercise Three: Let's add new functionality
 
 Great! We got here! We can be comfortable with our implementation as it's all covered with tests, and as such now we want to add some new functionality.
 
